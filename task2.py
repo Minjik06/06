@@ -9,10 +9,14 @@ backC="tails"
 ran= random.randint(0,1)
 if ran == 0:
     ran = frontC
+    if ran == a:
+        print(ran, "you are correct")
+    else :
+        print(ran, "you are wrong")
 else :
     ran = backC
-if ran == a:
-    print("you are correct")
-else :
-    print("you are wrong")
+    if ran == a:
+        print(ran, "you are correct")
+    else :
+        print(ran, "you are wrong")
 
