@@ -23,6 +23,13 @@ def rand3():
     for i in range(20):
         print( random.random(), end = " ")
 
+
+
+
+
+
+
+
 def rand4():
     myList = ["dog", "cat", "turtle", "fish", "meow", "phone"]
     print(myList)
