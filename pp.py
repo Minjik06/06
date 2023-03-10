@@ -84,3 +84,49 @@ elif ran == 3:
     list.pop(3)
 
 print(f"Your characters three statistics are {k}, {j}, {q}")
+
+
+list = ["strength", "intelligence", "wisdom", "dexterity", "constitution", "charisma"]
+list1=[0,6]
+list2=[0,6]
+list3=[0,6]
+list4=[0,6]
+
+a=str(input("Roll the first dice: "))
+
+
+for i in list:
+    ran=random.randint(1,6)
+    list1.append(ran)
+    print(f"{i} {ran}")
+a=str(input("Roll the second dice: "))
+for h in list:
+    ran1=random.randint(1,6)
+    list2.append(ran1)
+    print(f"{h} {ran1}")
+a=str(input("Roll the third dice: "))
+for j in list:
+    ran2=random.randint(1,6)
+    list.append(ran2)
+    print(f"{j} {ran2}")
+print()
+
+
+k=list1[0]+list2[0]+list3[0]
+kk=list1[1]+list2[1]+list3[1]
+kkk=list1[2]+list2[2]+list3[2]
+kkkk=list1[3]+list2[3]+list3[3]
+kkkkk=list1[4]+list2[4]+list3[4]
+kkkkkk=list1[5]+list2[5]+list3[5]
+v=list[0]
+vv=list[1]
+vvv=list[2]
+vvvv=list[3]
+vvvvv=list[4]
+vvvvvv=list[5]
+print(f"v {k}")
+print(f"vv {kk}")
+print(f"vvv {kkk}")
+print(f"vvvv {kkkk}")
+print(f"vvvvv {kkkkk}")
+print(f"vvvvvv {kkkkkk}")
