@@ -20,6 +20,8 @@ while i<6:
     range[i]=ran
     print(list[i], ran)
     i=i+1
+print("\n")
+k=0
 q=0
 a= int(input("Roll the second dice"))
 while q<6:
@@ -27,7 +29,8 @@ while q<6:
     range1[q]=ran
     print(list[q], ran)
     q=q+1
-
+print("\n")
+k=0
 o=0
 a= int(input("Roll the Third dice"))
 while o<6:
@@ -35,7 +38,7 @@ while o<6:
     range2[o]=ran
     print(list[o], ran)
     o=o+1
-
+print("\n")
 k=0
 print("final: ")
 while k<6:
